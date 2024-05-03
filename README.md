@@ -1,2 +1,2 @@
 # PROP-Project
-This is the project that I have delivered from the PROP course with other three partners.
+This is the project that I have delivered from the PROP course with other three partners. This project is about a program that will organize the best keyboard disposition, with the QAP algorithm (that will create a better keyboard disposition than the other algorithm, but it has a higher temporal complexity) or the Hill Climbing algorithm (that will create a worse keyboard than the QAP algorithm, but it will be able to do it with a reasonable time), from a text, a word list or an alphabet. In the folder DOCS, there is specified my contributions on the project (specifically on the file "Tercera Entrega - Relació Classes").
