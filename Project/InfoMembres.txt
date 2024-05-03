@@ -1,0 +1,13 @@
+PROP Grup 22.1
+
+Membres del grup:
+- De La Torre Costa, José Luís
+- García Lorente, Ariadna
+- Gispert Carreras, Gerard
+- Martínez Vives, Ferran
+
+Adreces de correu electrònic:
+jose.luis.de.la.torre.costa@estudiantat.upc.edu
+ariadna.garcia.lorente@estudiantat.upc.edu
+gerard.gispert@estudiantat.upc.edu
+ferran.martinez.vives@estudiantat.upc.edu

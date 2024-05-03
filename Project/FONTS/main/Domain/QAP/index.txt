@@ -1,0 +1,10 @@
+Aquest directori conté el codi de totes les classes referents a l'algorisme QAP.
+
+Arxius:
+- Bounding.java
+- Coord.java
+- HungarianAlgorithm.java
+- iniGreedy.java
+- MinimalLines.java
+- QAP.java
+- index.txt

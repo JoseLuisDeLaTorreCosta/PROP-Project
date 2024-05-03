@@ -1,0 +1,183 @@
+Test d'integració 1: 
+Tot seguit trobareu un test d'integritat suggerit. Recomanem seguir pas a pas els casos que es descriuen per entendre les funcionalitats de la pràctica. 
+	Cas 1: Registrar-se:
+	 
+		En executar la pràctica, ens trobarem amb dues pestanyes. Iniciar Sessió i Registrar-se. La primera és la que surt per defecte.
+		Per aquest cas seleccionarem la pestanya registrar-se. I omplirem els camps amb la següent informació. 
+			- Nom d'usuari: TestExemple
+			- Contrasenya: C0ntrasenya
+			- Repetir Contrasenya: C0ntrasenya
+		
+		Resultat: S'ha creat un nou usuari i ara veiem de nou dues pestanyes, Teclats i Documents. Per defecte veiem la pestanya, teclats que ens 
+		mostra tres botons: Crear Teclat, Veure Teclat i Eliminar Teclat.
+		
+	Cas 2: Crear Alfabet:
+	
+		 Suposem que hem acabat a l'escenari anterior. El primer pas que farem serà canviar la pestanya a documents. Ara podem veure tres botons 
+		 diferents. Crear Document, Veure Document i Eliminar Document. Seleccionarem el botó Crear Document. Ara s'ha obert una finestra 
+		 completament nova. Ens donen dues opcions, crear un document o importar-lo. En el nostre cas mirarem només la primera pregunta. Podem 
+		 veure que tenim tres opcions de nou Alfabet, Llista de Paraules i Text. De nou seleccionarem el primer botó: Alfabet. 
+		 En la nova finestra ens trobem dos camps a omplir, on col·locarem la següent informació: 
+		 	- Introdueix el nom del nou alfabet: NouAlfabetExemple
+		 	- Introdueix els caràcters del nou alfabet, separats per espais: a b c
+		 El següent pas és intoduir la matriu de Markov. Seleccionarem cada casella i introduirem un dels números que trobem a continuació: 
+		 	1 1 3
+		 	3 2 1
+		 	2 1 3
+		 A continuació pitjarem el botó Crear Alfabet.
+		 
+		 Resultat: S'ha creat un nou Alfabet i ara veiem de nou dues pestanyes, Teclats i Documents. Per defecte veiem la pestanya, teclats que ens 
+		 mostra tres botons: Crear Teclat, Veure Teclat i Eliminar Teclat.
+
+	Cas 3: Importar un text:
+	
+		 Suposem que hem acabat a l'escenari anterior. El primer pas que farem serà canviar la pestanya a documents. Ara podem veure tres botons 
+		 diferents. Crear Document, Veure Document i Eliminar Document. Seleccionarem el botó Crear Document. Ara s'ha obert una finestra 
+		 completament nova. Ens donen dues opcions, crear un document o importar-lo. En el nostre cas mirarem només la segona pregunta. Podem 
+		 veure que tenim tres opcions de nou Alfabet, Llista de Paraules i Text. Seleccionarem el tercer botó: Text. 
+		 En la nova finestra anirem a buscar el document que proporcionem a la carpeta DOCS anomenat text1.txt. Un cop seleccionat, apretarem el 
+		 botó Abrir.
+		 
+		 Resultat: S'ha creat un nou Text i ara veiem de nou dues pestanyes, Teclats i Documents. Per defecte veiem la pestanya, teclats que ens 
+		 mostra tres botons: Crear Teclat, Veure Teclat i Eliminar Teclat.
+		 
+	Cas 4: Importar una Llista de paraules:
+	
+		 Suposem que hem acabat a l'escenari anterior. El primer pas que farem serà canviar la pestanya a documents. Ara podem veure tres botons 
+		 diferents. Crear Document, Veure Document i Eliminar Document. Seleccionarem el botó Crear Document. Ara s'ha obert una finestra 
+		 completament nova. Ens donen dues opcions, crear un document o importar-lo. En el nostre cas mirarem només la segona pregunta. Podem 
+		 veure que tenim tres opcions de nou Alfabet, Llista de Paraules i Text. Seleccionarem el segón botó: Llista de Paraules. 
+		 En la nova finestra anirem a buscar el document que proporcionem a la carpeta DOCS anomenat llista1.txt. Un cop seleccionat, apretarem el 
+		 botó Abrir.
+		 
+		 Resultat: S'ha creat una nova Llista de paraules i ara veiem de nou dues pestanyes, Teclats i Documents. Per defecte veiem la pestanya, 
+		 teclats que ens mostra tres botons: Crear Teclat, Veure Teclat i Eliminar Teclat.
+	
+	Cas 5: Crear Teclat:
+	
+		Suposem que hem acabat a l'escenari anterior. El primer pas que farem serà seleccionar el botó Crear Teclat. Ara podem veure una finestra 
+		nova. Aquí introduirem/seleccionarem els seguents valors i pitjarem el botó Crear Teclat: 
+			-Name: NouTeclat
+			-Algorithm to use: QAP
+			-Document ID: NouAlfabetExemple
+			
+		Resultat: S'ha creat un nou Teclat i ara veiem de nou dues pestanyes, Teclats i Documents. Per defecte veiem la pestanya, teclats que ens 
+		 mostra tres botons: Crear Teclat, Veure Teclat i Eliminar Teclat.
+		
+	Cas 6: Visualitzar Teclat:
+	
+		Suposem que hem acabat a l'escenari anterior. El primer pas que farem serà seleccionar NouTeclat, seguidament pitjarem el botó Veure 
+		Teclat. Ara podem veure una finestra nova. Aquí podem veure la disposició del teclat. Aquí podem seleccionar Sortir, i tornar a la Vista 
+		Principal o continuar al cas 7.
+			
+		Resultat: S'ha obert una nova finestra amb la disposició del teclat. La disposició és
+			a c
+			b _
+		
+	Cas 7: Modificar Teclat:
+	
+		Suposem que hem acabat a l'escenari anterior. El primer pas que farem serà pitjar el botó Modificar. Ara podem veure una finestra nova. 
+		Aquí podem seleccionar dos botons cualsevols i veure com canvien. Per aquest test apretarem el caràcter b i c. Ara podem veure com la 
+		disposició ha canviat a : 
+			a b
+			c _
+		Ara seleccionarem el botó confirmar per tornar a la finestra anterior i apretar el botó Sortir
+		
+		Resultat: S'ha canviat la disposició de teclat de 
+			a c       a b
+			b _   a   c _
+		i ara veiem de nou dues pestanyes, Teclats i Documents. Per defecte veiem la pestanya, teclats que ens mostra tres botons: Crear Teclat, 
+		Veure Teclat i Eliminar Teclat. 
+	
+	Cas 8: Eliminar Llista de paraules:
+	
+		Suposem que hem acabat a l'escenari anterior. El primer pas que farem serà canviar la pestanya a documents. Ara podem veure tres botons 
+		diferents. Crear Document, Veure Document i Eliminar Document. Seleccionarem llista1.txt i seguidament pitjarem el botó Eliminar 
+		Document. Ens ha sortit una pestanya de confirmació, apretarem el botó Sí.
+			
+		Resultat: S'ha eliminat llista1.txt i ara veiem de nou dues pestanyes, Teclats i Documents. Per defecte veiem la pestanya, 
+		 teclats que ens 
+		 mostra tres botons: Crear Teclat, Veure Teclat i Eliminar Teclat.
+		 
+	Cas 9: Tancar Sessió:
+	
+		Tanquem la finestra
+			
+		Resultat: S'ha tancat el programa
+
+	
+	Cas 10: Iniciar Sessió:
+	
+		En executar la pràctica, ens trobarem amb dues pestanyes. Iniciar Sessió i Registrar-se. La primera és la que surt per defecte.
+		Omplirem els camps amb la següent informació. 
+			- Nom d'usuari: TestExemple
+			- Contrasenya: C0ntrasenya
+		
+		Resultat: S'ha iniciat sessió a TestExemple i s'han carregat tots els seus Documents i Teclats i ara veiem de nou dues pestanyes, Teclats i 
+		Documents. Per defecte veiem la pestanya, teclats que ens mostra tres botons: Crear Teclat, Veure Teclat i Eliminar Teclat.
+		
+	Cas 11: Crear Text:
+	
+		 Suposem que hem acabat a l'escenari anterior. El primer pas que farem serà canviar la pestanya a documents. Ara podem veure tres botons 
+		 diferents. Crear Document, Veure Document i Eliminar Document. Seleccionarem el botó Crear Document. Ara s'ha obert una finestra 
+		 completament nova. Ens donen dues opcions, crear un document o importar-lo. En el nostre cas mirarem només la primera pregunta. Podem 
+		 veure que tenim tres opcions de nou Alfabet, Llista de Paraules i Text. De nou seleccionarem el tercer botó: Text. 
+		 En la nova finestra ens trobem dos camps a omplir, on col·locarem la següent informació: 
+		 	- Introdueix el nom del nou text: NouTextExemple
+		 	- Introdueix text: Aquest es un text dexemple pel test dintegracio 1 
+		 A continuació pitjarem el botó Crear Text.
+		 
+		 Resultat: S'ha creat un nou Text i ara veiem de nou dues pestanyes, Teclats i Documents. Per defecte veiem la pestanya, teclats que ens 
+		 mostra tres botons: Crear Teclat, Veure Teclat i Eliminar Teclat.
+		 
+	Cas 12: Visualitzar Document:
+	
+		Suposem que hem acabat a l'escenari anterior.Suposem que hem acabat a l'escenari anterior. El primer pas que farem serà canviar la 
+		pestanya a documents. Ara podem veure tres botons diferents. Crear Document, Veure Document i Eliminar Document. Seleccionarem NouTextExemple, 
+		seguidament pitjarem el botó Veure Document. Ara podem veure una finestra nova. Aquí podem veure la disposició del teclat. Aquí podem 
+		seleccionar Sortir.
+			
+		Resultat: S'ha obert una nova finestra amb el Text NouTextExemple. Conté:  Aquest es un text dexemple pel test dintegracio 1. Ens trobem a 
+		la pestanya, document que ens mostra tres botons: Crear Document, Veure Document i Eliminar Document.
+		
+	Cas 13: Importar un alfabet:
+	
+		 Suposem que hem acabat a l'escenari anterior. El primer pas que farem serà canviar la pestanya a documents. Ara podem veure tres botons 
+		 diferents. Crear Document, Veure Document i Eliminar Document. Seleccionarem el botó Crear Document. Ara s'ha obert una finestra 
+		 completament nova. Ens donen dues opcions, crear un document o importar-lo. En el nostre cas mirarem només la segona pregunta. Podem 
+		 veure que tenim tres opcions de nou Alfabet, Llista de Paraules i Text. Seleccionarem el tercer botó: alfabet.  En la nova finestra anirem a 
+		 buscar el document que proporcionem a la carpeta DOCS anomenat alfabet1.txt. Un cop seleccionat, apretarem el botó Abrir.
+		 
+		 Resultat: S'ha creat un nou alfabet i ara veiem de nou dues pestanyes, Teclats i Documents. Per defecte veiem la pestanya, teclats que ens 
+		 mostra tres botons: Crear Teclat, Veure Teclat i Eliminar Teclat.
+		 
+	Cas 14: Crear Llista de Paraules:
+	
+		 Suposem que hem acabat a l'escenari anterior. El primer pas que farem serà canviar la pestanya a documents. Ara podem veure tres botons 
+		 diferents. Crear Document, Veure Document i Eliminar Document. Seleccionarem el botó Crear Document. Ara s'ha obert una finestra 
+		 completament nova. Ens donen dues opcions, crear un document o importar-lo. En el nostre cas mirarem només la primera pregunta. Podem 
+		 veure que tenim tres opcions de nou Alfabet, Llista de Paraules i Text. De nou seleccionarem el segón botó: Llista de Paraules. 
+		 En la nova finestra ens trobem dos camps a omplir, on col·locarem la següent informació: 
+		 	- Introdueix el nom de la nova llisra: LlistaExemple
+		 	- Introdueix les paraules de la nova llista, separats per espais: Paraula Text Alfabet
+		 El següent pas és intoduir les frequencies. Seleccionarem cada casella i introduirem un dels números que trobem a continuació: 
+		 	1 
+		 	3 
+		 	2 
+		 A continuació pitjarem el botó Crear Llista.
+		 
+		 Resultat: S'ha creat una nova Llista de Paraules i ara veiem de nou dues pestanyes, Teclats i Documents. Per defecte veiem la pestanya, teclats 
+		 que ens mostra tres botons: Crear Teclat, Veure Teclat i Eliminar Teclat.
+	
+	Cas 15: Eliminar Teclat:
+	
+		Suposem que hem acabat a l'escenari anterior. El primer pas es seleccionar NouTeclat i seguidament pitjarem el botó Eliminar 
+		Teclar. Ens ha sortit una pestanya de confirmació, apretarem el botó Sí.
+			
+		Resultat: S'ha eliminat NouTeclat i ara veiem de nou dues pestanyes, Teclats i Documents. Per defecte veiem la pestanya, 
+		teclats que ens mostra tres botons: Crear Teclat, Veure Teclat i Eliminar Teclat.
+		
+	
+		 
+		 
+		 

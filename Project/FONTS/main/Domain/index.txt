@@ -1,0 +1,14 @@
+Aquest directori conté el codi de totes les classes java de la capa de Domini.
+
+Arxius:
+- Directori Hill_Climbing
+- Directori QAP
+- Alfabet.java
+- Document.java
+- Llista_Paraules.java
+- Paraula.java
+- ReturnArray.java
+- Teclats.java
+- Text.java
+- Doc_Controlador
+- index.txt

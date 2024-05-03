@@ -1,0 +1,7 @@
+Aquest directori conté els arxius .jar necessaris per executar els testos unitaris amb JUnit4.
+
+Arxius:
+- hamcrest-core-1.3.jar
+- junit-4.12.jar
+- index.txt
+- json-20231013

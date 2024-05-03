@@ -1,0 +1,1 @@
+[["pan","queso","manzana","olivas","aceite","gambas"],[4,1,3,6,3,10]]

@@ -1,0 +1,23 @@
+Test d'integració 2:
+Tot seguit trobareu un test d'integritat suggerit per veure tots els warnings que es poden trobar en el procés d'ús de l'aplicació.
+
+Gestió dels perfils.
+A l'iniciar sessió (clicant en el tab d'iniciar sessió):
+Si s'intenta accedir amb un nom d'usuari i una contrasenya que no coincideixin amb cap del sistema apareixerà el missatge d'error: "El ID d'usuari o la contrasenya no són correctes."
+Si s'intenta accedir i algun dels 2 camps és buit apareixerà: "El nom d'usuari i la contrasenya no poden estar buits."
+Al registrar-se (clicant en el tab de registrar-se):
+Si s'intenta registrar un nom d'usuari ja existent en el sistema apareixerà el missatge d'error: "L'usuari <id> ja existeix"
+Si les contrasenyes no segueixen l'estàndard de seguretat com podria ser 123 apareixerà el missatge d'error: "Format de contrasenya no vàlid. Utilitzeu almenys 6 caràcters amb una lletra minúscula, una lletra majúscula i un dígit."
+Si les contrasenyes no coincideixen, com podria ser el cas de 123PROp 123PRop apareixerà el missatge d'error: "Les contrasenyes no coincideixen."
+
+Gestió dels teclats.
+Al crear un teclat (clicant en el tab de teclats en el botó de crear teclat):
+Si no tens cap document creat apareixerà el missatge d'error: "Has de tenir algun document creat primer."
+(A partir d'ara dins la vista de crear teclat quan ja es té algun document creat)
+Si el nom del teclat no compleix el format esperat com podria ser "" "AquestNomEsMassaLlarg" "///?()/&" apareixerà el missatge d'error: "El nom només pot estar format per caràcter alfanumèrics i '_'. No pot estar buit i com a màxim 12 caràcters."
+Al veure i eliminar teclats (clicant en el tab de teclats en el botó de veure/eliminar teclat):
+Si no es té cap teclat sel·leccionat apareixerà el missatge d'error: "Has de sel·leccionar un teclat"
+
+Gestió dels documents.
+Al veure i eliminar documents (clicant en el tab de documents en el botó de veure/eliminar document):
+Si no es té cap document sel·leccionat apareixerà el missatge d'error: "Has de sel·leccionar un document"

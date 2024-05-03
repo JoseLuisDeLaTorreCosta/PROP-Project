@@ -1,0 +1,10 @@
+Aquest és el directori arrel del projecte. Conté les tres carpetes DOCS, FONTS i EXE, i l'executable principal del programa.
+
+Arxius:
+- Directori DOCS
+- Directori FONTS
+- Directori EXE
+- infoMembres.txt
+- programa.sh
+- README.txt
+- index.txt

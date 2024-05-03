@@ -1,0 +1,5 @@
+Aquest directori conté les carpetes on es troba el codi de les classes java del projecte.
+
+Arxius:
+- Directori Domain
+- index.txt
